@@ -73,13 +73,14 @@
         justify-content: center;
         grid-gap: 0.5rem;  
         padding: 0.5rem;
+        overflow:hidden;
     }
     .ImagenesHome img {
         width: 300px;
+        overflow:hidden;
 
     }
     .Cuerpo-Qs{
-        display: grid;
         align-items: center;
         justify-content: center;
         align-content: center;
@@ -91,14 +92,15 @@
     }
     .Cuerpo-Qs img {
         width: 100%;
+        padding-top: 1rem;
     }
     .productos1 {
         display: grid;
         justify-content: center;
         text-align: center;
-        padding-bottom: 0.5rem;
+        padding: 0.5rem;
         text-justify: distribute;
-        font-family: 'Montserrat', sans-serif;
+        overflow:hidden;
     }
     .cuerpoProductos {
         display: grid;
@@ -106,7 +108,7 @@
         text-align: center;
         padding-bottom: 0.5rem;
         text-justify: distribute;
-        font-family: 'Montserrat', sans-serif;
+        overflow:hidden;
     }
     .cuerpoProductos img {
         width: 200px;
@@ -148,7 +150,7 @@
         align-items: center;
         height: 100%;
       }
-      .column1 img{
+      .row1 img{
         width: 50px;
         height: 50px;
       }
@@ -168,7 +170,7 @@
           font-size: 20px;
           padding: 0.5rem;
       }
-      .row1 img {
+      .column1 img {
         height: 50px;
         width: 150px;
         margin-left: 1px;
@@ -280,7 +282,6 @@
               background-color: rgb(235, 224, 224);
             }
           footer {
-            font-family:Georgia, 'Times New Roman', Times, serif;
             color: rgb(96, 235, 235);
             background-color: rgb(69, 71, 102);
             left: 0%;
@@ -311,7 +312,7 @@
             align-self: center;
             
           }
-          .row1 img {
+          .column1 img {
             height: 50px;
             width: 150px;
             align-self: center;
@@ -352,4 +353,14 @@
                       color: rgb(0, 0, 0);
                       background-color: rgb(235, 224, 224);
                     }
+        }
+        .animacion:hover {
+          -webkit-transform:scale(0.8);transform:scale(0.8);
+          overflow:hidden;
+          transition: 1s;
+        }
+        .agua1-5:hover {
+          -webkit-transform:scale(0.8);transform:scale(0.8);
+          overflow:hidden;
+          transition: 1s;
         }
