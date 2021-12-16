@@ -180,49 +180,6 @@
           text-align: center;
       }
     @media only screen and (min-width: 425px) {
-    
-        header  { 
-          font-family: 'Montserrat', sans-serif;
-          color: darkcyan;
-          background-color: rgb(146, 240, 240);
-          left: 0%;
-          top: 0%;
-          width: 100%;
-        
-        }
-        header a {
-          text-decoration: none;
-          color: rgb(4, 90, 90);
-        
-        }
-        .logo-nav-container {
-        display: flex;
-        justify-content: space-between;
-        overflow: auto;
-        align-items: center;
-        
-        }
-        .container-logo-nav-container img {
-          margin-top: 5%;
-          width: 100%;
-          height: 100%;
-        }
-        
-        .navigation ul {
-        margin: 0;
-        padding: 0%;
-        list-style: none;
-        }
-        .navigation ul li  {
-        display: inline-block;
-        }
-        .navigation ul li a {
-          display: block;
-          padding: 0.5rem 1rem;
-        }
-        .navigation ul li a:hover {
-          background: rgb(101, 196, 240);
-        }
         .cuerpo {
              padding-top: 8rem;
              padding-bottom: 5rem;
