@@ -10,44 +10,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
     <div id="grilla">
-        <header>
-            <div class="container-logo-nav-container">
-                <a href="index.html"><img src="../img/logo-mobile.png" alt="logo" ></a >
-            </div>
-        </header>
-            <nav >
-                <div class="navigation">
-                    <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/quienes-somos.html">Quienes somos</a></li>
-                    <li><a href="../pages/productos.html">Productos</a></li>
-                    <li><a href="../pages/promociones.html">Promociones </a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(106, 203, 248)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html" ><img src="../img/logo-mobile.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li> <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/quienes-somos.html">Quienes Somos</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+              </li>
+          </div>
+        </div>
+      </nav>
     <div class="cuerpoProductos">
         <h2 class="titulo-retornables">Productos retornables</h2>
         <div class="productos1">
           <div class="rowCuerpo-1">
-                <div class="card1">
+                <div class="produto">
                     <img src="../img/botellon-12-hogar.jpg" alt="botellon-12lts" class="animacion">  
                   <h3>  Botellon 12 Lts Hogar</h3>
               </div> 
-               <div class="card2">
+               <div class="produto">
                       <img src="../img/botellon-12-sodio.jpg" alt="botellon menos sodio" class="animacion">
                       <h3>  Botellon 12 Lts Menos sodio</h3>
                   </div>
              </div>
              <div class="rowCuerpo-2">
-                  <div class="card3">
-                      <img src="../img/botellon-20-hogar.jpg" alt="botellon 20 lts hogar" class="animacion">
+                  <div class="produto">
+                      <img src="../img/botellon-20-hogar.jpg"  alt="botellon 20 lts hogar" class="animacion">
                       <h3>  Botellon 20 lts </h3>
                   </div>
-                  <div class="card4">
+                  <div class="produto">
                       <img src="../img/soda.jpg" alt="soda retornable" class="animacion">
                       <h3>  Soda retornable</h3>
                  </div>
@@ -57,22 +69,22 @@
         <h2 class="titulo-retornables">Productos descartables</h2>
         <div class="productos2">
             <div class="rowCuerpo-3">
-                <div class="card">
+                <div class="produto">
                     <img src="../img/saborizadas.png" alt="saborizadas" class="animacion">
                     <h3>Aguas saborizadas s/gas 1,5 Lts</h3>
                 </div>
 
-                <div class="card">
+                <div class="produto">
                     <img src="../img/soda-descartable.jpg" alt="soda descartable" class="animacion">
                     <h3>Soda descartable 1.75Lts</h3>
                  </div>
             </div>
              <div class="rowCuerpo-4">
-                     <div class="card">
+                     <div class="produto">
                     <img src="../img/agua-1.5.png" alt="agua 1.5lts" class="agua1-5" >
                     <h3>Agua s/gas 1,5 Lts</h3>
                     </div>    
-                    <div class="card"> 
+                    <div class="produto"> 
                     <img src="../img/bidon-8lts.png" alt="Botellon descartable 8Lts Hogar" class="animacion">
                     <h3>Botellon descartable 8Lts Hogar</h3>
                  </div>
@@ -101,5 +113,6 @@
         </div>     
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
