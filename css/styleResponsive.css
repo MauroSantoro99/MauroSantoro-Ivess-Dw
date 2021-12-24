@@ -15,6 +15,12 @@
 #navbarSupportedContent {
   flex-grow: 0;
 } 
+.navbar  {
+  background-color:rgb(106, 203, 248);
+}
+.navbar a {
+  color: black;
+} 
     .cuerpo {
       margin-top: 5rem;
      display: flex;

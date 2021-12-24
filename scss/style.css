@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#navbarSupportedContent {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.navbar {
+  background-color: #6acbf8;
+}
+
+.navbar a {
+  color: black;
+}
+
+.cuerpo {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 400px;
+  background-image: url(../img/Familia-agua.jpg);
+  background-size: cover;
+}
+
+.cuerpo p {
+  text-align: center;
+  min-width: 200px;
+  max-width: 100%;
+  text-shadow: #242323 10px;
+  color: #131212;
+}
+
+.cuerpo img {
+  width: 100%;
+}
+
+.ImagenesHome {
+  margin-top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.ImagenesHome img {
+  width: 300px;
+  overflow: hidden;
+}
+
+.Cuerpo-Qs {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.Cuerpo-Qs p {
+  padding: 5%;
+  text-align: center;
+}
+
+.Cuerpo-Qs img {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.productos1 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  text-justify: distribute;
+  overflow: hidden;
+}
+
+.cuerpoProductos {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  text-justify: distribute;
+  overflow: hidden;
+}
+
+.cuerpoProductos img {
+  width: 200px;
+  height: 200px;
+}
+
+.titulo-retornables {
+  padding-top: 5%;
+}
+
+.titulo-retornablesPromo {
+  padding-top: 10%;
+}
+
+.CuerpoContacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10PX;
+}
+
+.CuerpoContacto img {
+  width: 100%;
+}
+
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #60ebeb;
+  background-color: #454766;
+  left: 0%;
+  bottom: 0 rem;
+  width: 100%;
+  height: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #60ebeb;
+}
+
+.container-footer {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.row1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.column1 {
+  padding: 0.6rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.column1 a {
+  margin-left: 1rem;
+}
+
+.column1 img {
+  height: 500px;
+  width: 15000px;
+  margin-left: 1px;
+}
+
+.column2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.column2 a {
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+.column3 {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 425px) {
+  .cuerpo {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 25px;
+  }
+  .cuerpo p {
+    font-size: 25px;
+  }
+  .cuerpo img {
+    width: 90%;
+    max-width: 700px;
+  }
+  .ImagenesHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 1rem;
+  }
+  .ImagenesHome img {
+    width: 60%;
+    max-width: 700px;
+  }
+  /*** Quienes somos **/
+  .Cuerpo-Qs img {
+    width: 400px;
+  }
+  /*** Productos **/
+  .productos1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .productos2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  /* Promo */
+  /* Contacto */
+  .CuerpoContacto {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .CuerpoContacto img {
+    width: 90%;
+    max-width: 600px;
+  }
+  .formulario {
+    color: black;
+    background-color: #ebe0e0;
+  }
+  footer {
+    color: #60ebeb;
+    background-color: #454766;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+  }
+  footer a {
+    text-decoration: none;
+    color: #60ebeb;
+  }
+  .container-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .column1 img {
+    width: 100px;
+    height: 50px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .column1 img a {
+    margin-left: 2px;
+  }
+  .column2 {
+    max-width: 100px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cuerpo {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .cuerpo img {
+    width: 75%;
+    min-width: 450px;
+  }
+  .ImagenesHome {
+    margin-bottom: 100px;
+  }
+  .ImagenesHome img {
+    height: auto;
+  }
+  .agua1-5 {
+    max-height: 320px;
+    max-width: 2700px;
+  }
+  .CuerpoContacto {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formulario {
+    color: black;
+    background-color: #ebe0e0;
+  }
+}
+
+.animacion:hover {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.agua1-5:hover {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */
