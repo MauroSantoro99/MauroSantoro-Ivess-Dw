@@ -17,6 +17,7 @@
 } 
 .navbar  {
   background-color:rgb(106, 203, 248);
+  padding-bottom: 100px;
 }
 .navbar a {
   color: black;
