@@ -54,11 +54,12 @@
 .QuienesSomos {
   text-align: center; }
   .QuienesSomos p {
-    font-size: 35px;
+    font-size: 20px;
     color: #0f0f0f;
     text-align: center;
     text-shadow: #242323 10px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: 'Montserrat', sans-serif; 
+    padding: 1rem;}
   .QuienesSomos img {
     width: 100%;
     padding-top: 1rem;
@@ -163,6 +164,9 @@ footer {
       width: 60%;
       max-width: 700px; }
   /*** Quienes somos **/
+  .QuienesSomos p {
+    margin: 1rem;
+  }
   .Cuerpo-Qs img {
     width: 400px; }
   /*** Productos **/
